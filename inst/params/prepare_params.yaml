@@ -1,15 +1,14 @@
 files:
-  pattern: example
+  pattern: dbgi_clematis_timar
   features:
-    raw: data/source/example_features.csv
+    raw: /tmp/RtmpxASEb4/f6c3f034ca74f8664e9d9f3c/0.csv
   spectral:
-    raw: data/source/example_spectra.mgf
+    raw: /tmp/RtmpxASEb4/9fc1ba2e97c50271d6ef564b/0.mgf
 gnps:
-  id: 41c6068e905d482db5698ad81d145d7c
+  id: e78fedabd7e442a5ab29e97450b8647a
   workflow: fbmn
 ms:
   polarity: pos
-organisms:
-  taxon: ~
+organisms: {}
 options:
-  summarise: no
+  summarise: yes
